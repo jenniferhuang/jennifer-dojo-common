@@ -1,4 +1,4 @@
-package com.ringcentral.jennifer.dojo.ksimilar
+package jennifer.dojo.common.ksimilar
 
 class KSimilarStrings {
 

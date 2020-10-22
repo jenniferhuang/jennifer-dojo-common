@@ -1,7 +1,9 @@
-package com.ringcentral.jennifer.dojo.ksimilar
+package jennifer.dojo.common.ksimilar
 
-import org.testng.Assert
-import org.testng.annotations.Test
+
+import org.junit.Assert
+import org.junit.Test
+
 
 /**
  * Created by jennifer.huang on 2020/9/24.
@@ -11,6 +13,7 @@ class KSimilarStringsTest {
     fun test1() {
         val a = "ab"
         val b = "ba"
+
         Assert.assertEquals(KSimilarStrings().getSwapNumber(a, b), 1)
     }
 
